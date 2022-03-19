@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nieto's Adventure</title>
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #010b20;
+            overflow: hidden;
+        }
+        .sub{
+            color:#fff;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .jugar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 10%;
+            height: 30px;
+            text-decoration: none;
+            color: #271C5B;
+            border-radius: 10px;
+            background-color: #fff;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .jugar:hover{
+            background-color: #543EC4;
+            color: #fff;
+        }
+    </style>
+    
+</head>
+<body>
+    <embed src="./assets/intro.mp3" autostart="true" loop="true" volume="80" width="0" height="0">
+    <div>
+        <img src="./assets/intro.png" alt="nieto">
+    </div>
+    <div>
+        <p class="sub">¡Ayudá al Nieto a llegar a Malvina antes de que sea tarde!</p>
+        
+    </div>
+    <a class="jugar"href="./game.html">Jugar</a>
+</body>
+</html>
